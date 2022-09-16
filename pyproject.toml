@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sphinxcontrib-sheeptext"
+version = "0.1.0"
+description = "Render SheepText diagrams in Sphinx"
+authors = ["Asim Ihsan <asim@ihsan.io>"]
+readme = "README.md"
+packages = [{include = "sphinxcontrib_sheeptext"}]
+
+[tool.poetry.dependencies]
+python = ">=3.7, <4.0"
+Pillow = "^9.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
