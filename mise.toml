@@ -1,0 +1,8 @@
+[tools]
+python = "3.14.3"
+uv = "0.11.2"
+
+[hooks]
+postinstall = [
+    "uv sync --all-groups",
+]

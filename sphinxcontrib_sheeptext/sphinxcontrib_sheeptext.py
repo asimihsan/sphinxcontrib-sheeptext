@@ -16,7 +16,7 @@ from docutils.parsers.rst import directives
 from sphinx.application import Sphinx
 from sphinx.errors import SphinxError
 from sphinx.locale import __
-from sphinx.util import logging, sha1
+from sphinx.util import logging
 from sphinx.util.docutils import SphinxDirective, SphinxTranslator
 from sphinx.util import i18n
 from sphinx.util.osutil import ensuredir
