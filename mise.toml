@@ -6,3 +6,7 @@ uv = "0.11.2"
 postinstall = [
     "uv sync --all-groups",
 ]
+
+[tasks.test]
+description = "Run pytest against the real sheeptext CLI (SHEEPTEXT_BINARY or PATH)"
+run = "uv run pytest"

@@ -6,8 +6,12 @@ authors = [{ name = "Asim Ihsan", email = "angry.blade5619@ihsan.io" }]
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "Pillow>=9.2.0",
     "Sphinx>=6.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
 ]
 
 [build-system]
